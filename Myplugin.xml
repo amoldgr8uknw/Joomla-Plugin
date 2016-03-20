@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<extension type="plugin" version="3.0" method="upgrade" group="user">
+	<name> myplugin </name>
+	<author> Amol Patil </author>
+	<version> 1.0 </version>
+	<description> This is My first plugin </description>
+	<files> 
+		<filename>Myplugin.xml</filename>
+		<filename>index.html</filename>
+		<filename plugin="Myplugin">Myplugin.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" label="Mylogin settings">
+				<field name="menu_id" type="menuitem" label="select Redirect page "/>
+
+
+				
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
